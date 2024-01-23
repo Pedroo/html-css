@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Parágrafo e quebra de linha</h1>
+    <hr>
+
+    <!-- Exemplo de simbolos -->
+    <p> 
+        &lt; &gt; <!--maiosr q/menor q-->
+        &reg; &copy; &trade; <!--marcas registradas-->
+        &euro; &pound; &cent;<!--moeda-->
+        &Delta; &uparrow; &nwArr;
+    </p>
+
+    <hr>
+
+    <!-- Exemplo de emojis -->
+    <p>
+        😊
+        &#x1F596;
+    </p>
+</body>
+</html>
