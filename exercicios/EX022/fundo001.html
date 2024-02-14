@@ -5,19 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+
+        body {
+            background-image: url(imagens/file.jpg);
+        }
+
         div.quadrado {
-            border: 1px solid black;
+            display: inline-block;
+            border: 2px solid black;
+            background-color: lightgray;
+            width: 300px;
+            height: 300px;
+        }
+
+        div#q1 {
+            background-color: blue;
+        }
+
+        div#q2 {
+            background-image: linear-gradient(to bottom, red, yellow);
+        }
+
+        div#q3 {
+            background-image: url(imagens/479120-970x600-1.jpeg);
         }
     </style>
 </head>
 <body>
-    <div class="quadrado">
+    <div class="quadrado" id="q1">
 
     </div>
-    <div class="quadrado">
+    <div class="quadrado" id="q2">
 
     </div>
-    <div class="quadrado">
+    <div class="quadrado" id="q3">
 
     </div>
 </body>
